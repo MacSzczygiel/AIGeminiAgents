@@ -1,22 +1,15 @@
 package com.Mac.AIGeminiAgents.DTO;
 
+import lombok.Getter;
+import lombok.Setter;
 
+import java.util.List;
 
+@Setter
+@Getter
 public class ChatRequest {
     private String userQuestion;
     private String clarificationAnswer;
+    private String sessionHistory;
 
-    public String getUserQuestion() {
-        return userQuestion;
-    }
-    public void setUserQuestion(String userQuestion) {
-        this.userQuestion = userQuestion;
-    }
-
-    public String getClarificationAnswer() {
-        return clarificationAnswer;
-    }
-    public void setClarificationAnswer(String clarificationAnswer) {
-        this.clarificationAnswer = clarificationAnswer;
-    }
 }

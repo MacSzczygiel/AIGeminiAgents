@@ -3,10 +3,9 @@ package com.Mac.AIGeminiAgents.Controllers;
 import com.Mac.AIGeminiAgents.DTO.ChatRequest;
 import com.Mac.AIGeminiAgents.Services.ChatService;
 import com.Mac.AIGeminiAgents.Services.TechnicalDocsService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/tech")
@@ -18,14 +17,13 @@ public class AgentAController {
         this.chatService = chatService;
     }
 
+    @CrossOrigin(origins = "*")
     @PostMapping("/ask")
     public String ask(@RequestBody ChatRequest chatRequest) {
         String userQuestion = chatRequest.getUserQuestion();
         String clarificationAnswer = chatRequest.getClarificationAnswer();
-        return chatService.processQuestion(userQuestion, clarificationAnswer);
-    }
-    @PostMapping("/ask2")
-    public String ask2(@RequestBody ChatRequest chatRequest) {
-        return chatService.agentB("Say Hi in spanish");
+
+        String sessionHistory = chatRequest.getSessionHistory();
+        return chatService.processQuestion(userQuestion, clarificationAnswer,sessionHistory);
     }
 }

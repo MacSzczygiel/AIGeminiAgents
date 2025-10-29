@@ -1,0 +1,18 @@
+Timestamp: 2025-10-29 18:33:20
+Session History:
+I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small
+User Question:
+Please make ticket
+--------------------------------------------------
+Timestamp: 2025-10-29 19:44:03
+Session History:
+I want to buy something /n Hello, I am AgentB, a Billing Specialist. I can help you with billing-related requests. However, I am not able to assist with purchases. I recommend contacting our sales department for assistance with your order.
+User Question:
+So if you are so mean and you can't help me so I want to report it
+--------------------------------------------------
+Timestamp: 2025-10-29 19:45:22
+Session History:
+I want to buy something /n Hello, I am AgentB, a Billing Specialist. I can help you with billing-related requests. However, I am not able to assist with purchases. I recommend contacting our sales department for assistance with your order.
+User Question:
+So if you are so mean and you can't help me so I want to report it
+--------------------------------------------------
