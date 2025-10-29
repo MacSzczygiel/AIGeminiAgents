@@ -1,0 +1,242 @@
+{
+	"info": {
+		"_postman_id": "5cd942d2-0c18-4a83-b09a-0ad68895137e",
+		"name": "AIGeminiAgentsAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33613137"
+	},
+	"item": [
+		{
+			"name": "AgentA Angular",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgentA ESP",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgentA System",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgentA System 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgentB Prices",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agent return form1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agent return form2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agent return form2 Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userQuestion\":\"Tell me something about billing\",\r\n    \"clarificationAnswer\":\"\",\r\n    \"sessionHistory\":\"I am John and I want to return my object /n Hello, I am AgentB, a Billing Specialist. I can help with your return request. Could you please provide your order number and the reason for the return?/nOrder number is 123444 and the reason is the shes are too small\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tech/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tech",
+						"ask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
